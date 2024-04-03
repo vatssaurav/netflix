@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;800&family=Poppins:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: black;
+
+}
+.main{
+    background-image: url("images/netflixnew1.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box{
+    height: 70vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+ nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+ }
+
+ nav button{
+    position: relative;
+    z-index: 10;
+ }
+
+ .un{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+ }
+
+ .un> :first-child{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+ }
+
+ .un> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+ }
+
+ .un> :nth-child(3){
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+ }
+ 
+ .separation{
+    height: 7px;
+    background-color: rgb(74, 73, 73);
+ }
+ .btn:hover{
+   border: 1px solid white;
+ }
+
+ .btn{
+   font-family: Arial, Helvetica, sans-serif;
+    padding: 3px 8px;
+    font-weight: 400;
+     color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    border-radius: 4px;
+
+ }
+ .btn-redsn:hover{
+   background-color: rgb(162, 0, 0);
+   border: 1px solid rgb(162, 0,0);
+ }
+
+ .btn-redgs:hover{
+ background-color: rgb(162, 0, 0);
+ }
+
+ .btn-redsn{
+background-color: red;
+padding: 3px 8px;
+color: white;
+cursor: pointer;
+border-radius: 4px;
+font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .btn-redgs{
+    background-color: red;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px; 
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+ }
+.un-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+ .main input{
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    font-weight: 900; 
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.2);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+ }
+  .first{
+   display: flex;
+   justify-content: center;
+   max-width: 70vw;
+   margin: auto;
+   color: white;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .secimg{
+   position: relative;
+  }
+
+  .secimg img{
+   width: 555px;
+   padding-top: 10px;
+   position: relative;
+   z-index: 10;
+
+  }
+  .secimg video{
+   position: absolute;
+   top: 72px;
+   right: 0;
+   
+  }
+  section.first > div {
+display: flex;
+flex-direction: column;
+padding: 34px 0;
+  }
+
+
+  section.first > div :first-child{
+   font-size: 43px;
+   font-weight: bolder;
+  }
+
+  section.first > div :nth-child(2){
+   font-size: 22px;
+  }
+
+  .secoimg{
+   width: 555px;
+   padding-bottom: 27px;
+   position: relative;
+
+  }
+  .faq h2{
+   text-align: center;
+   font-size: 48px;
+  }
+.faq{
+   color: white;
+   background-color: black;
+   padding: 34px;
+}
+
+.que:hover{
+   background-color: rgba(65, 65, 65, 1);
+}
+  .que{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   display: flex;
+   justify-content: space-between;
+   background-color: rgba(45, 45, 45, 1);
+   padding: 24px;
+   max-width: 56vw;
+   margin: 14px auto;
+   cursor: pointer;
+  }
+footer{
+   color: white;
+   max-width: 60vw;
+   margin: auto;
+}
+   
+  .footer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   color: white;
+   max-width: 60vw;
+   margin: auto;
+}
+.footer a{
+   font-size: 14px;
+   color: white;
+}
+
+
+.foot{
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   flex-direction: column;
+   gap: 23px;
+}
